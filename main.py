@@ -1,7 +1,7 @@
 from data.student import student_records
 from ulits.random_utils import generate_assignment_code
 import ulits.string_utils as string_utils
-import ulits.show_students as report_generator
+import report.show_students as report_generator
 
 def main():
     while True:
